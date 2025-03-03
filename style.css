@@ -1,0 +1,124 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e Fonte */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2em;
+    color: #00ff00; /* Verde vibrante */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Seção Início */
+#home {
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #222;
+}
+
+#home h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Seção Produtos */
+#produtos {
+    padding: 50px 10px;
+    background-color: #333;
+    text-align: center;
+}
+
+#produtos h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.produto {
+    background-color: #444;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 45%;
+}
+
+.produto h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ff00; /* Verde vibrante */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #007700;
+}
+
+/* Seção Pagamento */
+#pagamento {
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #222;
+}
+
+#pagamento h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#pagamento ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
