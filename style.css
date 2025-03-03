@@ -60,6 +60,27 @@ header nav ul li a {
 }
 
 /* Seção Produtos */
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.produto {
+    background-color: #444;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.produto h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
 #produtos {
     padding: 50px 10px;
     background-color: #333;
